@@ -1,4 +1,7 @@
-# Reageer Kookplaat (React Boilerplate)
+# It's dangerous to go alone
+Another React Boilerplate
+
+![its-dangerous-to-go-alone](https://media.giphy.com/media/haBeggedmenEA/giphy.gif)
 
 ## TODO
 - [ ] A lot
