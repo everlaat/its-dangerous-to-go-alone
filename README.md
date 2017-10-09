@@ -1,7 +1,7 @@
 # It's dangerous to go alone
 Another React Boilerplate
 
-![its-dangerous-to-go-alone](https://media.giphy.com/media/OjHWzlrqqfTwY/giphy.gif)
+![its-dangerous-to-go-alone](its-dangerous-to-go-alone.gif)
 
 ## TODO
 - [ ] A lot
