@@ -9,7 +9,7 @@ Another React Boilerplate
 - [x] React
 - [x] Scss
 - [x] Eslint with Airbnb preset
-- [ ] Jest
+- [x] Jest
 - [ ] Redux
 - [ ] Redux Initial Setup with Helpers
 - [ ] Router?
