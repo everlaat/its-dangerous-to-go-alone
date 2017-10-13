@@ -8,7 +8,7 @@ Another React Boilerplate
 - [x] Webpack 3
 - [x] React
 - [x] Scss
-- [ ] Eslint with Airbnb preset
+- [x] Eslint with Airbnb preset
 - [ ] Jest
 - [ ] Redux
 - [ ] Redux Initial Setup with Helpers

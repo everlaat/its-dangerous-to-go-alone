@@ -1,9 +1,9 @@
-const { resolve, join, extname } = require('path');
+const { join, extname } = require('path');
 const { sync } = require('glob');
 
 module.exports = {
   path: {
-    entry_file: 'index.js',
+    entry_file: 'index.jsx',
     source_path: 'app/src',
     public_path: 'public',
   },
@@ -13,10 +13,10 @@ module.exports = {
   },
   extensions: (() => {
     const extensions = [];
-    sync(join('.', 'config', 'webpack', 'loaders', '*.js')).map((loader, b) => {
+    sync(join('.', 'config', 'webpack', 'loaders', '*.js')).forEach((loader) => {
       const filename = loader.split('/').pop();
-      const filename_without_estension = filename.replace(extname(filename), '');
-      filename_without_estension.split('_').forEach((part) => {
+      const filenameWithoutExstension = filename.replace(extname(filename), '');
+      filenameWithoutExstension.split('_').forEach((part) => {
         extensions.push(`.${part}`);
       });
     });
